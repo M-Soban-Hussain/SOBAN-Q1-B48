@@ -1,3 +1,4 @@
+
 console.log("Please enter your subject marks to check your Grade");
 const ps = require ('prompt-sync')();
 let eng:number=+ps("Enter ENGLISH Score");
