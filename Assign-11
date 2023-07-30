@@ -1,0 +1,3 @@
+let names = ["Soban","Hamza","Zaid","Ali"];
+console.log("These are my friends:");
+console.log(names.join("\n"));
