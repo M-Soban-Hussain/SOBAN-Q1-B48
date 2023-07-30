@@ -19,3 +19,6 @@ guests.pop();console.log("Sorry Sami, we couldn't invite you.");
 guests.pop();console.log("Sorry Soban, we couldn't invite you.");
 guests.pop();console.log("Sorry Hafi, we couldn't invite you.");
 guests.forEach(message);
+guests.pop();
+guests.pop();
+console.log(guests);
