@@ -1,0 +1,7 @@
+let transportation = ["Rolls Royace","Harley Davidson","Pivate Jet"];
+
+function printNumber(element:string) {
+  console.log(`I would like to own a ${element}`);
+}
+
+transportation.forEach(printNumber);
