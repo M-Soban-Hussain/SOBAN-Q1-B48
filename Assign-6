@@ -14,3 +14,7 @@ The resulting string is a new string without any leading or trailing whitespace,
 
 It is essential to note that trim() only removes whitespace characters at the beginning and end of the string, not within the string.
 /*
+
+
+
+
