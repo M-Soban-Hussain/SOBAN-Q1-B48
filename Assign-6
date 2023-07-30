@@ -1,0 +1,16 @@
+let withWhiteSpaceCharacter = ("\n\tSoban Hussain\t\n");
+console.log("Name with whitespace characters");
+console.log(withWhiteSpaceCharacter);
+console.log("Name without whitespace characters");
+console.log(withWhiteSpaceCharacter.trim());
+/*
+The trim() method is a built-in JavaScript/TypeScript string method that removes leading and trailing whitespace characters from a string. Whitespace characters include spaces, tabs, newline characters, and other characters that are used to represent horizontal or vertical spacing.
+
+Here's a brief explanation of how trim() works:
+
+When you call trim() on a string, it scans the string from both ends (beginning and end) and removes any whitespace characters until the first non-whitespace character is encountered from both sides.
+
+The resulting string is a new string without any leading or trailing whitespace, but the original string remains unchanged.
+
+It is essential to note that trim() only removes whitespace characters at the beginning and end of the string, not within the string.
+/*
