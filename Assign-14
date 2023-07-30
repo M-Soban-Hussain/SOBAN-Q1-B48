@@ -4,3 +4,5 @@ function message(name:string) {
   console.log(`Hello ${name}, you are invited for dinner tomorrow`);
 }
 guests.forEach(message);
+
+
