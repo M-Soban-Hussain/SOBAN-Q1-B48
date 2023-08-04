@@ -1,0 +1,19 @@
+let city1={
+   name:"Rawalpindi",
+   province:"Punjab",
+};
+let city2={
+   name:"Bahawalpur",
+   province:"Punjab",
+};
+let city3={
+   name:"Karachi",
+   province:"Sindh",
+}
+function info (data:any){
+   console.log(data.name+":");
+   console.log("It is situated in "+data.province);
+}
+info(city1);
+info(city2);
+info(city3);
