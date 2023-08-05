@@ -1,0 +1,20 @@
+let arr1= [1,3,-4,7,8,-9,11,12,-14,13,16,15,17,-18,20];
+let even=0;let odd=0;
+for(let i=0;i<arr1.length;i++){
+    if(arr1[i]%2==1){even++;}
+    else {odd++};
+};console.log(`Even numbers are : ${even}
+Odd numbers are : ${odd}`);
+let b=0;let positivesum=0;let negativesum=0;let max=0;
+for(var a=0; a<arr1.length;a++){
+    b=b+arr1[a];
+    if(arr1[a]>max){
+        max=arr1[a];
+    }
+    if(arr1[a]>0){
+        positivesum +=arr1[a];
+    }else{negativesum +=arr1[a];}
+};console.log(`The sum of numbers :${b}`);
+console.log(`The largest number is :${max}`);
+console.log("The Sum of +ve no. :",+positivesum);
+console.log("The Sum of -ve no. :",+negativesum);
