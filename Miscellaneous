@@ -1,0 +1,113 @@
+// ==========Uses of let, const and var==============
+
+// var myname = 12345;
+// console.log(myname);
+// const address = "ISLAMABAD";
+// console.log(address);
+// let age = "18";
+// console.log(age);
+
+//===================Concatination===================
+
+// let names="Eric"
+// console.log("Hello "+names+", would you like to learn some Python today?")
+// console.log(`Hello ${names}, would you like to learn some Python today?`)
+
+// ================Types of Data-Types================
+
+// let word1: string= "Hello World";
+// let word2: number= 12345;
+// let word3: boolean= false;
+// let word4: undefined;
+// let word5: null= null;
+
+// =================Analyzing Data-Types==============
+
+// let testVariable = 1; 
+// console.log(typeof testVariable);
+
+// ====================Operators======================
+
+// let n1=5;
+// let n2=10;
+// console.log(n1+n2);
+// console.log(n1-n2);
+// console.log(n1*n2);
+// console.log(n1/n2);
+// console.log(n1**n2);
+// console.log(n1==n2);
+// console.log(n1===n2);
+// console.log(n1!=n2);
+// console.log(n1>n2);
+// console.log(n1<n2);
+// console.log(n1>=n2);
+// console.log(n1<=n2);
+// console.log(n1 >= 5 && n2 < 10);
+// console.log(n1 > 5 && n2 < 10);
+// console.log(n1 >= 5 || n2 < 10);
+// console.log(n1 > 5 || n2 < 10);
+// console.log(!(n2 < 10));
+// console.log(!(n2 > 10));
+
+// ==================Taking Value From User================
+
+// let promptSync = require('prompt-sync')();
+// let yourname = promptSync("Enter your name");
+// console.log("Your name is",yourname);
+
+// ========================Grading System====================
+
+// console.log("Please enter your subject marks to check your Grade");
+// const ps = require ('prompt-sync')();
+// let eng:number=+ps("Enter ENGLISH Score");
+// let urdu:number=+ps("Enter URDU Score");
+// let maths:number=+ps("Enter MATHS Score");
+// let pkst:number=+ps("Enter Pak Studies Score");
+// let chem:number=+ps("Enter CHEMISTRY Score");
+// let phy:number=+ps("Enter PHYSICS Score");
+// function gradingSystem(eng:number,urdu:number,maths:number,pkst:number,chem:number,phy:number){
+//     return eng+phy+chem+maths+pkst+urdu;
+// }
+// let total:number=gradingSystem(eng,urdu,pkst,chem,phy,maths);
+// console.log(total);
+// if(total>=550&&total<=600){
+//     console.log("Your Grade is A+");
+// }
+// else if(total>=500&&total<=549){
+//     console.log("Your Grade is A");
+// }
+// else if(total>=470&&total<=499){
+//     console.log("Your Grade is B+");
+// }else if(total>=440&&total<=469){
+//     console.log("Your Grade is B");
+// }else if(total>=390&&total<=439){
+//     console.log("Your Grade is C");
+// }else if(total<350){
+//     console.log("Your Grade is D");
+// }else if(total>600){
+//     console.log("You Have Entered Wrong Marks");
+// }
+// else{
+//     console.log("You have Failed");
+//}
+//=================================================================
+// let arr1= [1,3,-4,7,8,-9,11,12,-14,13,16,15,17,-18,20];
+// let even=0;let odd=0;
+// for(let i=0;i<arr1.length;i++){
+//     if(arr1[i]%2==1){even++;}
+//     else {odd++};
+// };console.log(`Even numbers are : ${even}
+// Odd numbers are : ${odd}`);
+// let b=0;let positivesum=0;let negativesum=0;let max=0;
+// for(var a=0; a<arr1.length;a++){
+//     b=b+arr1[a];
+//     if(arr1[a]>max){
+//         max=arr1[a];
+//     }
+//     if(arr1[a]>0){
+//         positivesum +=arr1[a];
+//     }else{negativesum +=arr1[a];}
+// };console.log(`The sum of numbers :${b}`);
+// console.log(`The largest number is :${max}`);
+// console.log("The Sum of +ve no. :",+positivesum);
+// console.log("The Sum of -ve no. :",+negativesum);
