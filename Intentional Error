@@ -1,0 +1,7 @@
+let myArray:string[]=["soban","sami","hafi","warad"];
+console.log("Here is an error...");
+let falseValue=myArray[4]
+console.log(falseValue);
+console.log("Here is a corrected version...");
+let trueValue=myArray[3];
+console.log(trueValue);
