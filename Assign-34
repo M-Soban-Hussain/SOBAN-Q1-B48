@@ -1,0 +1,10 @@
+let favourite_pizzas = ["pineapple", "malai boti", "cheese lover"];
+for(let a=0; a<favourite_pizzas.length; a++){
+    console.log(`\b ${favourite_pizzas[a]}`)
+}
+console.log("\n");
+for(let b=0; b<favourite_pizzas.length; b++){
+    console.log(`I really love ${favourite_pizzas[b]}`);
+}
+console.log("\n");
+console.log("I really love Pizza.");
