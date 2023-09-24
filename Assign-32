@@ -1,0 +1,22 @@
+let currentusers = ["ali", "soban", "hamza", "zaid", "umar"];
+let newusers = ["ehsan", "salman", "Soban", "khan", "zAid"];
+
+let current_users = [];
+let new_users = [];
+
+for(let a=0; a<currentusers.length; a++){
+    current_users.push(currentusers[a].toLowerCase());
+}
+for(let b=0; b<currentusers.length; b++){
+    new_users.push(newusers[b].toLowerCase());
+}
+
+for(let n=0; n<=4; n++){
+    let username_to_check = new_users[n]
+    if(current_users.includes(username_to_check)){
+        console.log(`'${newusers[n]}' username is already taken. Choose another one.`);
+    }
+    else{
+        console.log(`'${newusers[n]}' username is availible.`);
+    }
+}
