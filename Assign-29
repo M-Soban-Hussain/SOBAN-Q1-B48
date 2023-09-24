@@ -1,0 +1,16 @@
+let favourite_fruits = ["mango", "pomegranate", "orange"];
+if(favourite_fruits.includes("mango")){
+    console.log("You Really Like Mangoes.");
+}
+if(favourite_fruits.includes("apple")){
+    console.log("You Really Like Apples.");
+}
+if(favourite_fruits.includes("pomegranate")){
+    console.log("You Really Like Pomegranates.");
+}
+if(favourite_fruits.includes("orange")){
+    console.log("You Really Like Oranges.");
+}
+if(favourite_fruits.includes("kiwi")){
+    console.log("You Really Like Kiwies.");
+}
