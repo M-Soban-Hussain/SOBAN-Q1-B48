@@ -1,9 +1,9 @@
 console.log("An alien is just shot down.");
-enum alien_color1 {"red","green","yellow"};
-if(alien_color1.green){
+let alien_color = "green";
+if(alien_color == "green"){
     console.log("You have earned 5 points.")
 }
-enum alien_color2 {"red","green","yellow"};
-if(alien_color2.red){
+alien_color = "red";
+if(alien_color == "green"){
     console.log("You have earned 5 points.")
 }
