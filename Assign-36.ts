@@ -1,5 +1,5 @@
 function make_shirt (size:string, text:string){
-    return `The size of shirt is ${size} and the text is ${text}.`;
+    return `The size of shirt is '${size}' and the text is '${text}'.`;
 }
 let ps = require('prompt-sync')();
 let size_of_shirt = ps("What should be the size of shirt? ");
