@@ -9,3 +9,4 @@ else if(alien_color == "yellow"){
 else if(alien_color == "red"){
     console.log("You have earned 15 points.")
 }
+
