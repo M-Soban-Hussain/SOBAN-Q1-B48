@@ -1,0 +1,27 @@
+let ps = require("prompt-sync")();
+type carinfo = {
+    manufacturer: string,
+    model: string,
+    [keyword:string]: any
+}
+function create_car(){
+    let manufacturer = ps("What is the manufacturer of your car?");
+    let model = ps("What is the model number of your car?")
+
+    let car_details: carinfo = {
+        manufacturer,
+        model
+    }
+
+while(true){
+    let key:string = ps("Enter an additional property name or press Enter to Finish.");
+    if(!key){
+        break;
+    }
+        let value:any = ps(`Enter the value of ${key}.`);
+        car_details[key] = value;
+}
+    return(car_details);
+}
+const car = create_car();
+console.log(car);
